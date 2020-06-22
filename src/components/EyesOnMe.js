@@ -11,7 +11,9 @@ class EyesOnMe extends React.Component {
   render() {
     return (
       <div>
-        <button onFocus={this.handleFocus} onBlur={this.handleBlur} />
+        <button onFocus={this.handleFocus} onBlur={this.handleBlur}>
+          Eyes on Me!
+        </button>
       </div>
     );
   }
